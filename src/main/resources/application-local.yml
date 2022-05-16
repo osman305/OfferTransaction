@@ -1,0 +1,4 @@
+#logging.level:
+#  root: INFO
+#  com.festiveoffers.offertransaction.controller: WARN
+#  com.festiveoffers.offertransaction.service: INFO

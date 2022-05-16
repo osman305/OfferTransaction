@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/offertransactions
+    username: postgres
+    password: osman
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL9Dialect
+    hibernate:
+      ddl-auto: update
+
+logging.level:
+  com.festiveoffers.offertransaction.controller: WARN
+  com.festiveoffers.offertransaction.service: DEBUG

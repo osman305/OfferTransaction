@@ -25,6 +25,7 @@ public class Controller {
     public OfferTransactionRequest saveRequest(@RequestBody OfferTransactionRequest offerRequest) {
         log.debug("Inside saveRequest method of Controller1");
         return offerTransactionService.saveOfferRequest(offerRequest);
+
     }
 
     @PostMapping("/applyoffertransaction2")
