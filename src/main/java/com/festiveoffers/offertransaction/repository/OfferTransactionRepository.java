@@ -6,4 +6,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 public interface OfferTransactionRepository extends JpaRepository<OfferTransactionRequest,String> {
 
 
+    OfferTransactionRequest findAllById(String storeNumber);
 }
